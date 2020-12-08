@@ -6,7 +6,10 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Swapping swp = new Swapping();
+            //swp.SwapNumbersWithoutTempVariable();
+            //swp.SwapNumbersWithoutTempVariable2();
+            swp.SwapStringWithoutTempVariable();
         }
     }
 }
